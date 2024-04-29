@@ -1,0 +1,134 @@
+.container-1 {
+  display: grid;
+  grid-template-rows: 25px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 25px;
+  grid-template-columns: 25px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 25px;
+}
+
+.first-section {
+  grid-area: 2/4/4/16;
+  background-color: rgba(8, 15, 101, 0.964);
+}
+
+#name {
+  font-family: helvetica;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+  color: white;
+}
+
+#profession {
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: left;
+  color: white;
+}
+
+#short-bio {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: left;
+  color: white;
+}
+
+.contact-section {
+  grid-area: 4/2/5/16;
+  background-color: rgb(4, 4, 33);
+}
+
+#contact {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: left;
+  color: white;
+}
+
+.cv-image {
+  grid-area: 2/2/5/4;
+}
+
+.skills-section {
+  grid-area: 5/2/9/9;
+}
+
+#skills-heading {
+  font-size: 22px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(8, 15, 101, 0.964);
+}
+
+.skills-list {
+  font-size: 16px;
+  font-family: arial;
+  font-weight: 300;
+}
+
+.personal-achievements {
+  grid-area: 5/9/7/16;
+}
+
+#achievements-heading {
+  font-size: 22px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(8, 15, 101, 0.964);
+}
+
+.achievements-list {
+  font-size: 16px;
+  font-family: arial;
+  font-weight: 300;
+}
+
+.education {
+  grid-area: 7/2/10/16;
+}
+
+#education-heading {
+  font-size: 22px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(8, 15, 101, 0.964);
+}
+
+.education-history {
+  font-size: 16px;
+  font-family: arial;
+  font-weight: 300;
+}
+
+.work-experience {
+  grid-area: 10/2/12/16;
+}
+
+#work-experience-heading {
+  font-size: 22px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(8, 15, 101, 0.964);
+}
+
+.work-place {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: left;
+}
+
+.responsibilities {
+  font-size: 14px;
+  font-family: arial;
+  font-weight: 300;
+}
