@@ -17,7 +17,7 @@ Once the site has loaded, there will only be one page displaying all the content
 6. Education History (below the skills and competencies section)
 7. Work Experience (below the education history section)
 
-![Alt text](cv/MyCV.png)
+![Alt text](https://github.com/seanzira/MyCV/blob/main/cv/cv/MyCV.png)
 
 ## Credits
 
